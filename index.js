@@ -1,4 +1,4 @@
-class VirtualKeyboard {
+/* class VirtualKeyboard {
   ru = ['Й', 'Ц', 'У'];
 
   currentlang = 'ru';
@@ -13,4 +13,15 @@ class VirtualKeyboard {
 }
 
 const VK = new VirtualKeyboard(null);
-VK.Render();
+const a = VK.Render(); */
+
+const keyboard = document.body;
+
+keyboard.addEventListener('keydown', (event) => {
+  // eslint-disable-next-line no-console
+  console.log(event.key);
+  console.log('press');
+});
+keyboard.addEventListener('click', () => {
+  console.log('click');
+});

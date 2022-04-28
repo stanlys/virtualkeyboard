@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Virtual Keyboard</title>
 </head>
 <body>
-    <script type="javascript" src="index.js"></script> 
+    <div class="centralizer">
+    <textarea class="textarea"></textarea>
+    <div class="vk">
+        
+        <div class="row" id="Keyboard">
+            <div class="button">`</div>
+            <div class="button">1</div>
+            <div class="button">2</div>
+            <div class="button">3</div>
+            <div class="button">4</div>
+            <div class="button">5</div>
+            <div class="button">6</div>
+            <div class="button">7</div>
+            <div class="button">8</div>
+            <div class="button">9</div>
+            <div class="button">0</div>
+            <div class="button">-</div>
+            <div class="button">=</div>
+            <div class="button backspace">&lt;-</div>
+        </div>
+        <div class="row">
+            <div class="button tab">TAB</div>
+            <div class="button">Q</div>
+            <div class="button">W</div>
+            <div class="button">E</div>
+            <div class="button">R</div>
+            <div class="button">T</div>
+            <div class="button">Y</div>
+            <div class="button">U</div>
+            <div class="button">I</div>
+            <div class="button">O</div>
+            <div class="button">P</div>
+            <div class="button">[</div>
+            <div class="button">]</div>
+            <div class="button tab">\</div>
+        </div>
+        <div class="row">
+            <div class="button caps">CAPS</div>
+            <div class="button">A</div>
+            <div class="button">S</div>
+            <div class="button">D</div>
+            <div class="button">F</div>
+            <div class="button">G</div>
+            <div class="button">H</div>
+            <div class="button">J</div>
+            <div class="button">K</div>
+            <div class="button">L</div>
+            <div class="button">;</div>
+            <div class="button">'</div>
+            <div class="button enter">ENTER</div>
+        </div>
+        <div class="row">
+            <div class="button shiftleft">SHIFT</div>
+            <div class="button">Z</div>
+            <div class="button">X</div>
+            <div class="button">C</div>
+            <div class="button">V</div>
+            <div class="button">B</div>
+            <div class="button">N</div>
+            <div class="button">M</div>
+            <div class="button">,</div>
+            <div class="button">.</div>
+            <div class="button">/</div>
+            <div class="button shiftright">SHIFT</div>
+        </div>
+        <div class="row">
+            <div class="button">CTRL</div>
+            <div class="button">fn</div>
+            <div class="button">WIN</div>
+            <div class="button">ALT</div>
+            <div class="button space"> </div>
+            <div class="button">ALT</div>
+            <div class="button">CTRL</div>
+            <div class="button">&lt;</div>
+            <div class="arrow">
+                <div class="button">^</div>
+                <div class="button">d</div>
+            </div>
+            
+            <div class="button">&gt;</div>
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script> 
 </body>
 </html>
